@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e26b58c84.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="https://png.pngtree.com/png-clipart/20221110/original/pngtree-modern-icon-solution-letter-b-picture-image_3619525.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#protfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="header-text">
+            <p>Welcome To My Protfolio</p>
+            <h1>Hi, I'm <span> M Rohini</span><br>Iam a webdeveloper</h1>
+        </div>
+    </div>
+</div> 
+     
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://res.cloudinary.com/dzhaduge4/image/upload/v1698128147/oie_ttNI9XAniOHQ_gje0li.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Iam a web developer with some Basic knowledge in many different Front
+                    end and back end languages, responsive, framewor, databases, and best
+                                          code practice. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front End Developer</span><br>Desiging Portfolio Website</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </div>   
+</div>
+
+
+
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2>programing skills</h2>
+                <ul>
+                    <li>proficient in HTML and CSS.</li>
+                    <li>Familiar in handaling
+                        framework like bootstrap.
+                    </li>
+                    <li>proficient in Javascript and jquery.</li>
+                    <li>knowledge about React js</li>
+                    <li>knowledge on node js</li>
+                    <li>knowledge on Database.</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+
+                <h2>Skills</h2>
+                <ul>
+                    <li>Effeictive in verbal and communication skills.</li>
+                    <li>Ability to convey technical information to both technical and non-technical</li>
+                    <li>Analytical thinking and problem solving</li>
+                    <li>Able to code creative solutions for challanging problems.</li>
+                    <li>Effective time management skilla to meet projev=ct deadlines.</li>
+                    <li>certification in HTML,CSS,bootstrap and javascript.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://www.programiz.com/sites/tutorial2program/files/working-of-html-css-js-together.png">
+                <div class="layer">
+                    <h3>HTML</h3>
+                    <p>The HyperText Markup Language or HTML<br>is the standard markup language for<br>documents designed to be displayed 
+                    <br>in a web browser.</p>
+                    <a hrerf="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/09/HTML-Effects-Featured.jpg">
+                <div class="layer">
+                    <h3>CSS</h3>
+                    <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended<br>to simplify the process of making web pages presentable.<br>CSS allows you to apply styles to web pages.
+
+                    </p>
+                    <a hrerf="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://1.bp.blogspot.com/-5YxaRMdWtZg/X6A6bDgsy7I/AAAAAAAADcg/QEADvFgXuDs2JXJRYXCajPKVo79TrAAqQCLcBGAsYHQ/w320-h180/How-to-Create-responsive-Homepage.jpg">
+                <div class="layer">
+                    <h3>JVAVA SCRIPT</h3>
+                    <p>JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web.<br>And its used in websites portfolio</p>
+                    <a hrerf="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rohinigiri905@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7013964188</p>
+                <div class="website-icons">
+                    <a href="https://amazon.com/"><i class="fa-brands fa-aws"></i></a>
+                    <a href=""><i class="fa-brands fa-google"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="C:\Users\rohin\Downloads\Rohini resume.pdf.docx" download class="btn btn2"> resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright .Made me <i class="fa-sharp fa-solid fa-eye"></i>easy to create</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>
+
+<script>
+       
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+       }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzf2sJpROwnm2G-D7dyJeXa22aCQ-mxgTLCsoY2CGmSFI2N3Y_aiSPeKrqwmSKnqHur/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+
+</html>
